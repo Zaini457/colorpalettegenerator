@@ -1,0 +1,27 @@
+https://lovable.dev/projects/d19aee9c-f58c-4c96-bd5f-2b93b15a2679?magic_link=mc_6137af83-54d8-4c35-b592-8c73d739dc09
+
+
+
+https://velora-x7-racing-dream.lovable.app
+
+
+
+import Hero from "@/components/Hero";
+import BrandStory from "@/components/BrandStory";
+import PerformanceSpecs from "@/components/PerformanceSpecs";
+import DesignHighlights from "@/components/DesignHighlights";
+import Footer from "@/components/Footer";
+
+const Index = () => {
+  return (
+    <div className="min-h-screen">
+      <Hero />
+      <BrandStory />
+      <PerformanceSpecs />
+      <DesignHighlights />
+      <Footer />
+    </div>
+  );
+};
+
+export default Index;

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Palette Generator – Create & Save Beautiful Palettes</title>
+  <meta name="description" content="Generate, lock, and save stunning color palettes. Switch between light and dark mode, copy HEX codes, and store your favorites easily.">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header>
+    <h1>🎨 Color Palette Generator</h1>
+    <p>Create, lock & save your favorite color schemes with ease</p>
+    <div class="controls">
+      <button id="theme-toggle">🌞 Light Mode</button>
+    </div>
+  </header>
+
+  <section id="generator">
+    <div id="palette" class="palette"></div>
+    <div class="buttons">
+      <button id="generate">🎲 Generate Palette</button>
+      <button id="save">💾 Save Palette</button>
+    </div>
+  </section>
+
+  <section id="saved-section">
+    <h2>💖 My Saved Palettes</h2>
+    <div id="saved-palettes" class="saved-palettes"></div>
+  </section>
+
+  <footer>
+    <p>Dveloped by ❤️  Zainb Bilal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
