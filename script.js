@@ -92,3 +92,9 @@ window.addEventListener("load", () => {
   generatePalette();
   displaySavedPalettes();
 });
+<script type="text/javascript"> atOptions = { 'key' : '0b7c99c4ebdebbf3c93dfb2393997e81',
+ 'format' : 'iframe', 'height' : 90, 'width' : 728, 'params' : {} }; </script> <script
+ type="text/javascript"
+ src="//www.highperformanceformat.com/0b7c99c4ebdebbf3c93dfb2393997e81/invoke.js">
+ </script>
+
